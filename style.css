@@ -1,0 +1,44 @@
+
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+
+    background-color: gray;
+    grid-auto-rows: min-content;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    aspect-ratio: 1;
+    height: 75vh;
+    /* justify-content: center; */
+}
+
+.square {
+    /* border: 1px solid gray; */
+    background-color: silver;
+}
+
+
+button {
+    /* margin: auto; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+.buttons-bar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5vh;
+    gap: 30px;
+}
