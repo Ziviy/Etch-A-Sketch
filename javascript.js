@@ -9,7 +9,7 @@ function buildGrid(rows=16) {
 }
 
 function createNewGrid() {
-    let numberOfRows = prompt("Сколько строк сделать?");
+    let numberOfRows = prompt("How many rows do you need?");
     if (!numberOfRows)
         return;
     resetGrid(numberOfRows);
